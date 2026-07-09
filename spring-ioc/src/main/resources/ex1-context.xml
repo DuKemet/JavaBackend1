@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://w3.org"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           https://springframework.org
+           http://www.springframework.org/schema/context
+           https://springframework.org">
+
+    <!-- Context elements go here -->
+	<bean id="hi" class="com.ex1.Hello" />
+</beans>
